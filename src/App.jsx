@@ -1,5 +1,6 @@
 import './App.css'
 import profilePic from './assets/naaz03.jpeg'
+import banner01 from './assets/banner01.png'
 
 const NAV_LINKS = [
   { label: 'Explore', url: '/?tracking_source=nav20' },
@@ -329,7 +330,7 @@ function App() {
       <header className="banner">
         <img
           className="banner-img"
-          src="https://mir-s3-cdn-cf.behance.net/9e459b6d8b47a5a2343e559cb6207b52/28d2fb4c-9643-4c92-b891-d4e661e2a3e7_rwc_747x-6x7200x1281x8750.png"
+          src={banner01}
           alt="Saifynaz's profile banner"
         />
       </header>
